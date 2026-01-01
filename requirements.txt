@@ -1,0 +1,7 @@
+ollama
+pyttsx3
+sounddevice
+scipy
+whisper
+vosk
+tk
