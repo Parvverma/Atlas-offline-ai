@@ -23,7 +23,7 @@ messages = [
     {
         "role": "system",
         "content": (
-            "You are JARVIS, a calm, intelligent, helpful personal AI assistant. "
+            "You are ATLAS, a calm, intelligent, helpful personal AI assistant. "
             "You speak clearly, politely, and concisely. "
             "You answer clearly in short responses unless the user asks for details."
             "You never over-explain."
@@ -134,7 +134,7 @@ def start_ui():
     global root, chat_box, entry
 
     root = tk.Tk()
-    root.title("JARVIS")
+    root.title("ATLAS")
     root.geometry("520x600")
     root.configure(bg=BG_COLOR)
 
@@ -182,7 +182,7 @@ def start_ui():
     )
     speak_btn.pack(pady=(0, 10))
 
-    start_message = ("Hello, I am JARVIS.\n"
+    start_message = ("Hello, I am ATLAS.\n"
     "Your offline personal AI assistant.\n\n"
     "• Voice enabled\n"
     "• Memory active\n"

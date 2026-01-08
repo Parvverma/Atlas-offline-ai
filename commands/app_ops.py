@@ -12,3 +12,4 @@ def open_app(app_name):
         return "❌ App not allowed."
     subprocess.Popen(app)
     return f"Opened {app_name}"
+# atlas

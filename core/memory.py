@@ -13,3 +13,6 @@ def load_memory():
 def save_memory(memory):
     with open(MEMORY_FILE, "w", encoding="utf-8") as f:
         json.dump(memory, f, indent=2)
+
+
+# 

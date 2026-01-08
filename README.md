@@ -1,6 +1,6 @@
-# JARVIS — Offline AI Personal Assistant 🤖
+# ATLAS — Offline AI Personal Assistant 🤖
 
-JARVIS is a fully offline, privacy-focused AI personal assistant built in Python.
+ATLAS is a fully offline, privacy-focused AI personal assistant built in Python.
 It supports voice and text interaction, permanent memory, safe system automation,
 and runs entirely on the user's local machine.
 
@@ -12,7 +12,7 @@ and runs entirely on the user's local machine.
 - 🎙 Voice input (Speech-to-Text)
 - 🔊 Voice output (Text-to-Speech)
 - 💬 Desktop chat UI (Tkinter)
-- 💤 Wake word: "Hey Jarvis"
+- 💤 Wake word: "Atlas"
 - 🧠 Permanent memory (local JSON storage)
 - 📂 Safe file & app control (whitelisted)
 - 🖥 One-click executable (optional)
@@ -30,7 +30,7 @@ and runs entirely on the user's local machine.
 
 ### 2️⃣ Wake Word Detection
 - **Vosk (offline speech recognition)**
-- Used only for detecting "Hey Jarvis"
+- Used only for detecting "Atlas"
 - Lightweight and always offline
 
 ### 3️⃣ Voice Recognition
@@ -102,10 +102,10 @@ ollama pull phi3
 4️⃣ Install Python Dependencies
 pip install -r requirements.txt
 
-5️⃣ Run JARVIS
+5️⃣ Run ATLAS
 python -m core.main
 
-Say "Jarvis" to activate.
+Say "Atlas" to activate.
 
 
 🔐 Privacy & Safety

@@ -32,3 +32,5 @@ from ui.app import start_ui
 if __name__ == "__main__":
     listen_for_wake_word()
     start_ui()
+
+# atlas

@@ -15,7 +15,7 @@ def audio_callback(indata, frames, time, status):
     q.put(bytes(indata))
 
 def listen_for_wake_word():
-    print("😴 JARVIS sleeping... say 'Jarvis'")
+    print("😴 ATLAS sleeping... say 'Atlas'")
 
     model = Model(MODEL_PATH)
     recognizer = KaldiRecognizer(model, 16000)
